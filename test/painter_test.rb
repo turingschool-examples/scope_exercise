@@ -10,31 +10,43 @@ class PainterTest < Minitest::Test
   end
 
   def test_it_has_a_name1
+    skip
     painter = Painter.new(the_painters_name)
     assert_equal "Bob Ross", painter.name
   end
 
   def test_it_has_a_name2
+    skip
     painter = Painter.new("Bob Ross")
     assert_equal "Bob Ross", @name
   end
 
   def test_it_has_a_name3
+    skip
     bob_ross = Painter.new("Bob Ross")
     assert_equal "Bob Ross", painter.name
   end
 
   def test_it_can_give_greeting
+    skip
     painter = Painter.new("Bob Ross")
     assert_equal "Hello, I'm Bob Ross", greeting
   end
 
+  def test_it_can_give_greeting_again
+    skip
+    painter = Painter.new("Bob Ross")
+    assert_equal "Hello, I'm Bob Ross", painter.greeting
+  end
+
   def test_it_starts_with_no_paint
+    skip
     painter = Painter.new("Bob Ross")
     assert_equal [], painter.paints
   end
 
   def test_it_can_add_all_paints
+    skip
     painter = Painter.new("Bob Ross")
     paint_1 = Paint.new("Alizarin Crimson")
     paint_2 = Paint.new("Van Dyke Brown")
@@ -43,6 +55,7 @@ class PainterTest < Minitest::Test
   end
 
   def test_it_can_add_paints
+    skip
     painter = Painter.new("Bob Ross")
     painter.add_paint(paint_1)
     painter.add_paint(paint_2)
@@ -50,6 +63,7 @@ class PainterTest < Minitest::Test
   end
 
   def test_it_can_add_paints_again
+    skip
     painter = Painter.new("Bob Ross")
     paint_1 = Paint.new("Alizarin Crimson")
     paint_2 = Paint.new("Van Dyke Brown")
@@ -59,6 +73,7 @@ class PainterTest < Minitest::Test
   end
 
   def test_it_can_add_paints_third_try
+    skip
     painter = Painter.new("Bob Ross")
     paint_1 = Paint.new("Alizarin Crimson")
     paint_2 = Paint.new("Van Dyke Brown")
@@ -68,6 +83,7 @@ class PainterTest < Minitest::Test
   end
 
   def test_it_can_get_paint_names
+    skip
     painter = Painter.new("Bob Ross")
     paint_1 = Paint.new("Alizarin Crimson")
     paint_2 = Paint.new("Van Dyke Brown")
