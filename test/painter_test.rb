@@ -1,6 +1,7 @@
 require 'minitest/autorun'
 require 'minitest/pride'
 require './lib/painter'
+require './lib/paint'
 
 class PainterTest < Minitest::Test
   def test_it_exists
