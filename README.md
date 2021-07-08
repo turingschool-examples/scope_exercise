@@ -1,6 +1,6 @@
 # Scope Exercise
 
-The `painter_test.rb` file contains tests that may or may not have some scope issues. Some will throw errors, some will fail, and some may run without failure. For each test:
+The `painter_spec.rb` file contains tests that may or may not have some scope issues. Some will throw errors, some will fail, and some may run without failure. For each test:
 1. Clone this repo down locally
 1. Read the test and relevant files in the `lib` directory
 1. Try to predict what output the test will produce
